@@ -8,9 +8,8 @@ p, li {
   line-height: 24px !important;
 }
 
-h1, h2, h3, h4, h5 {
-  padding-top: 15px !important;
-}
+
+/* Made by MailChimp */
 
 body,
 #bodyTable,
@@ -40,6 +39,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  padding-top: 15px;
 }
 
 p {
@@ -47,8 +47,14 @@ p {
   padding: 0;
 }
 
-a {
+a,
+a:hover {
+  color: #27c0dc;
   word-wrap: break-word;
+  text-decoration: underline;
+}
+
+a:hover {
 }
 
 .ReadMsgBody {
@@ -93,9 +99,6 @@ blockquote {
   -webkit-text-size-adjust: 100%;
 }
 
-#bodyCell {
-  padding: 20px;
-}
 
 .mcnImage {
   vertical-align: bottom;
@@ -112,7 +115,7 @@ blockquote {
 
 body,
 #bodyTable {
-  /*@editable*/background-color: #ffffff;
+  /*@editable*/background-color: #e8eeef;
 }
 /*
 @tab Page
@@ -140,7 +143,7 @@ body,
 */
 
 h1 {
-  /*@editable*/color: #606060 !important;
+  /*@editable*/color: #27c0dc !important;
   display: block;
   /*@editable*/font-size: 40px;
   /*@editable*/font-style: normal;
@@ -158,7 +161,7 @@ h1 {
 */
 
 h2 {
-  /*@editable*/color: #404040 !important;
+  /*@editable*/color: #27c0dc !important;
   display: block;
   /*@editable*/font-size: 26px;
   /*@editable*/font-style: normal;
@@ -211,9 +214,10 @@ h4 {
 */
 
 #templatePreheader {
-  /*@editable*/background-color: #e8eeef;
+  /*@editable*/background-color: #ffffff;
   /*@editable*/border-top: 0;
   /*@editable*/border-bottom: 0;
+  border-top: 4px solid #30bfd8;
 }
 /*
 @tab Preheader
@@ -282,7 +286,7 @@ h4 {
 */
 
 #templateBody {
-  /*@editable*/background-color: #e8eeef;
+  /*@editable*/background-color: #ffffff;
   /*@editable*/border-top: 0;
   /*@editable*/border-bottom: 0;
 }
@@ -317,7 +321,7 @@ h4 {
 */
 
 #templateFooter {
-  /*@editable*/background-color: #FFFFFF;
+  /*@editable*/background-color: #e8eeef;
   /*@editable*/border-top: 0;
   /*@editable*/border-bottom: 0;
 }
@@ -754,7 +758,7 @@ h4 {
 #td_c18f_0,
 #td_bdac_0,
 #td_8f54_0 {
-  padding-top: 9px;
+  /*padding-top: 9px;*/
 }
 #td_c18f_1,
 #td_bdac_1,
@@ -774,7 +778,8 @@ h4 {
 #img_bdac_0,
 #img_8f54_0 {
   max-width: 720px;
-  padding-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: inline !important;
   vertical-align: bottom;
 }
@@ -795,10 +800,7 @@ h4 {
 #td_c18f_5,
 #td_bdac_5,
 #td_8f54_5 {
-  padding-top: 9px;
-  padding-right: 18px;
-  padding-bottom: 9px;
-  padding-left: 18px;
+  padding: 9px 30px;
 }
 #span_c18f_0,
 #span_bdac_10 {
@@ -836,6 +838,20 @@ h4 {
   color: #2ba6cb;
   text-decoration: none;
 }
+
+a#social {
+  color: transparent;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+#social img {
+  width: 28px;
+  height: 28px;
+
+}
+
+
 #img_c18f_3,
 #img_c18f_4,
 #img_c18f_5,
